@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # traceroute
-sudo su -c "traceroute files.pharo.org"
+sudo su -c "traceroute -I files.pharo.org"
 #traceroute ci.inria.fr
 #traceroute www.inria.fr
 #traceroute gforge.inria.fr
