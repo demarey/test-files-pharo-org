@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # traceroute
-sudo su -c "traceroute -I files.pharo.org"
-sudo su -c "traceroute -I ci.inria.fr"
-sudo su -c "traceroute -I www.inria.fr"
-sudo su -c "traceroute -I gforge.inria.fr"
+sudo su -c "traceroute -I -a files.pharo.org"
+sudo su -c "traceroute -I -a ci.inria.fr"
+sudo su -c "traceroute -I -a www.inria.fr"
+sudo su -c "traceroute -I -a gforge.inria.fr"
 
 # latence serveurs
 httping -h files.pharo.org -c 10
