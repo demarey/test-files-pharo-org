@@ -1,0 +1,8 @@
+language: java
+addons:
+  apt:
+    packages:
+      - httping
+      - traceroute
+      - wget
+script: test.sh
