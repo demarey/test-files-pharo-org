@@ -5,4 +5,4 @@ addons:
       - httping
       - traceroute
       - wget
-script: test.sh
+script: ./test.sh
