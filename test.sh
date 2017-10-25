@@ -3,8 +3,8 @@
 date
 
 # traceroute
-traceroute files.pharo.org
-traceroute ci.inria.fr
+traceroute -A files.pharo.org
+traceroute -A ci.inria.fr
 
 # latence serveurs
 httping -h files.pharo.org -c 10
