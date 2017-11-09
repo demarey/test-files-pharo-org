@@ -3,9 +3,10 @@
 date
 
 # traceroute
+traceroute -A files.pharo.org
 #traceroute -A ci.inria.fr
 traceroute -A vodcast.upmc.fr
-traceroute -A files.pharo.org
+
 
 # latence serveurs
 httping -h files.pharo.org -c 10
