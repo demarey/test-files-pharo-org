@@ -4,7 +4,7 @@ date
 
 # traceroute
 traceroute files.pharo.org
-traceroute ci.inria.fr
+#traceroute ci.inria.fr
 #traceroute -A vodcast.upmc.fr
 
 
