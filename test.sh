@@ -4,7 +4,7 @@ date
 
 # traceroute
 #traceroute www-rocq.inria.fr
-#traceroute files.pharo.org
+traceroute -n -A files.pharo.org
 #traceroute ci.inria.fr
 #traceroute -A vodcast.upmc.fr
 
